@@ -1,0 +1,766 @@
+{
+  "tools": [
+    {
+      "Name": "Next UI",
+      "Description": "React component library",
+      "Url": "https://nextui.org/",
+      "Technologies": ["JS", "CSS", "React"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Lunar UI",
+      "Description": "React & Vue components, copy+paste",
+      "Url": "https://lunarui.dev",
+      "Technologies": ["JS", "CSS", "React", "Vue"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": false
+    },
+    {
+      "Name": "Magic UI",
+      "Description": "React & Vue & Svelte components",
+      "Url": "https://magicui.design",
+      "Technologies": ["JS", "CSS", "React", "Vue", "Svelte"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Shadcn",
+      "Description": "React component library",
+      "Url": "https://ui.shadcn.com",
+      "Technologies": ["JS", "CSS", "React"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Vue Shadcn",
+      "Description": "Vue component library",
+      "Url": "https://www.shadcn-vue.com/",
+      "Technologies": ["JS", "CSS", "Vue"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Svelte Shadcn",
+      "Description": "Svelte component library",
+      "Url": "https://www.shadcn-svelte.com",
+      "Technologies": ["JS", "CSS", "Svelte"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "React keepdesign",
+      "Description": "React component library",
+      "Url": "https://react.keepdesign.io",
+      "Technologies": ["JS", "CSS", "React"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Mateial UI",
+      "Description": "Google open-source design system",
+      "Url": "https://m3.material.io",
+      "Technologies": [],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "AllTheFreeStock",
+      "Description": "Free stock images, audio and videos.",
+      "Url": "https://allthefreestock.com/",
+      "Technologies": [],
+      "Type": "Frontend",
+      "Subtype": "Images",
+      "Free": true
+    },
+    {
+      "Name": "Float UI",
+      "Description": "Free web development tool for quickly creating modern, responsive websites with sleek design, even for non-designers.",
+      "Url": "https://floatui.com/",
+      "Technologies": ["React", "Vue", "Svelte", "Alpine"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Radix UI",
+      "Description": "Unstyled, accessible, open source React primitives for high-quality web apps and design systems.",
+      "Url": "https://www.radix-ui.com/",
+      "Technologies": ["React"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Radix Vue",
+      "Description": "Unstyled, accessible, open source Vue primitives for high-quality web apps and design systems.",
+      "Url": "https://www.radix-vue.com/",
+      "Technologies": ["Vue"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Radix Svelte",
+      "Description": "Unstyled, accessible, open source Svelte primitives for high-quality web apps and design systems.",
+      "Url": "https://www.radix-svelte.com/",
+      "Technologies": ["Svelte"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Melt UI",
+      "Description": "An open-source Svelte library for building high-quality, accessible design systems and web apps.",
+      "Url": "https://melt-ui.com/",
+      "Technologies": ["Svelte"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Backlight",
+      "Description": " With collaboration between developers and designers at heart, Backlight is a complete coding platform where teams build, document, publish, scale, and maintain Design Systems. The free plan allows up to 3 editors to work on one design system with unlimited viewers.",
+      "Url": "https://landing.ant.design/",
+      "Technologies": [
+        "React",
+        "React Native",
+        "Next.js",
+        "Preact",
+        "Vue",
+        "Nuxt",
+        "Svelte",
+        "Angular",
+        "Solid",
+        "Astro",
+        "Tailwindcss"
+      ],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "BoxySVG",
+      "Description": " A free installable Web app for drawing SVGs and exporting in SVG, PNG, jpeg, and other formats.",
+      "Url": "https://boxy-svg.com/app",
+      "Technologies": ["SVG"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Fffuel",
+      "Description": "fffuel is a collection of color tools and free SVG generators for gradients, patterns, textures, shapes & backgrounds",
+      "Url": "https://www.fffuel.co/",
+      "Technologies": ["CSS", "SVG"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Circum Icons",
+      "Description": "Consistent open-source icons such as SVG for React, Vue, and Svelte.",
+      "Url": "https://circumicons.com/",
+      "Technologies": ["React", "Vue", "Svelte"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "HeroIcons",
+      "Description": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
+      "Url": "https://heroicons.com/",
+      "Technologies": ["SVG"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "CleverBrush",
+      "Description": " Free Graphics Design / Photo Collage App. Also, they offer paid integration of it as a component.",
+      "Url": "https://www.cleverbrush.com/",
+      "Technologies": [],
+      "Type": "Frontend",
+      "Subtype": "Images",
+      "Free": true
+    },
+    {
+      "Name": "CloudConvert",
+      "Description": " Convert anything to anything. Two hundred eight supported formats including videos and gifs.",
+      "Url": "https://cloudconvert.com/",
+      "Technologies": [],
+      "Type": "Frontend",
+      "Subtype": "Images",
+      "Free": true
+    },
+    {
+      "Name": "CodeMyUI",
+      "Description": "Handpicked collection of Web Design & UI Inspiration with Code Snippets",
+      "Url": "https://codemyui.com/",
+      "Technologies": ["HTML"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "ColorKit",
+      "Description": "Create color palettes online or get inspiration from top palettes.",
+      "Url": "https://colorkit.co/",
+      "Technologies": [],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "UIColors",
+      "Description": "Create color palettes online",
+      "Url": "https://uicolors.app/",
+      "Technologies": ["CSS", "Tailwindcss"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "Coolors",
+      "Description": "Free color palette generator.",
+      "Url": "https://coolors.co/",
+      "Technologies": ["CSS"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    "_____________________________________________________________________",
+    {
+      "Name": "",
+      "Description": "",
+      "Url": "",
+      "Technologies": [],
+      "Type": "",
+      "Subtype": "",
+      "Free": true
+    },
+    {
+      "Name": "UI Ball",
+      "Description": "Free, open-source loading animations",
+      "Url": "https://uiball.com/",
+      "Technologies": ["SVG", "React", "Next.js", "Astro", "Remix", "Gatsby"],
+      "Type": "Frontend",
+      "Subtype": "UI",
+      "Free": true
+    },
+    {
+      "Name": "",
+      "Description": "",
+      "Url": "",
+      "Technologies": [],
+      "Type": "",
+      "Subtype": "",
+      "Free": true
+    },
+    {
+      "Name": "Codepen",
+      "Description": "Online playground for vanilla HTML, CSS & JS",
+      "Url": "https://codepen.io",
+      "Technologies": ["HTML", "CSS", "JS"],
+      "Type": "FullStack",
+      "Subtype": "Sandbox",
+      "Free": true
+    },
+    {
+      "Name": "Codi Link",
+      "Description": "Online playground for vanilla HTML, CSS & JS",
+      "Url": "https://codi.link",
+      "Technologies": ["HTML", "CSS", "JS"],
+      "Type": "Frontend",
+      "Subtype": "Sandbox",
+      "Free": true
+    },
+    {
+      "Name": "CodeSandbox",
+      "Description": "Online Playground for React, Preact, Vue and more.",
+      "Url": "https://codesandbox.io/",
+      "Technologies": [
+        "HTML",
+        "CSS",
+        "JS",
+        "Node",
+        "React",
+        "Preact",
+        "React Native",
+        "Next.js",
+        "Angular",
+        "Vue",
+        "Nuxt",
+        "Astro",
+        "Express",
+        "PHP",
+        "Go",
+        "Bun",
+        "Deno",
+        "Python",
+        "Docker",
+        "Remix",
+        "Rust",
+        "Vite",
+        "Solid",
+        "Gatsby",
+        "PostgreSQL"
+      ],
+      "Type": "Frontend",
+      "Subtype": "Sandbox",
+      "Free": true
+    },
+    {
+      "Name": "JS Bin",
+      "Description": "Online playground for vanilla HTML, CSS & JS",
+      "Url": "https://jsbin.com/",
+      "Technologies": ["HTML", "CSS", "JS"],
+      "Type": "Frontend",
+      "Subtype": "Sandbox",
+      "Free": true
+    },
+    {
+      "Name": "JS Fiddle",
+      "Description": "Online playground for HTML, CSS or Bootstrap, JS or TS, React, Preact, jQuery",
+      "Url": "https://jsfiddle.net",
+      "Technologies": [
+        "HTML",
+        "CSS",
+        "JS",
+        "React",
+        "Preact",
+        "Vue",
+        "Angular",
+        "jQuery"
+      ],
+      "Type": "Frontend",
+      "Subtype": "Sandbox",
+      "Free": true
+    },
+    {
+      "Name": "Solo Learn",
+      "Description": "A cloud programming playground well-suited for running code snippets. Supports various programming languages. No registration is required for running code, but it is necessary when saving code on their platform. Also offers free courses for beginners and intermediate-level coders.",
+      "Url": "https://www.sololearn.com/compiler-playground/",
+      "Technologies": [
+        "HTML",
+        "CSS",
+        "JS",
+        "TS",
+        "Python",
+        "Java",
+        "C++",
+        "C#",
+        "C",
+        "Kotlin",
+        "PHP",
+        "Swift",
+        "Node",
+        "Go",
+        "R",
+        "Ruby",
+        "jQuery"
+      ],
+      "Type": "FullStack",
+      "Subtype": "Learning",
+      "Free": true
+    },
+    {
+      "Name": "Play with Docker",
+      "Description": " A simple, interactive, fun playground to learn Docke",
+      "Url": "https://labs.play-with-docker.com/",
+      "Technologies": ["Docker"],
+      "Type": "Backend",
+      "Subtype": "Learning",
+      "Free": true
+    },
+    {
+      "Name": "Canister",
+      "Description": "20 free private repositories for developers, 30 free private repositories for teams to build and store Docker images",
+      "Url": "https://canister.io",
+      "Technologies": ["Docker"],
+      "Type": "Backend",
+      "Subtype": "Cloud storage",
+      "Free": true
+    },
+    {
+      "Name": "Container Registry Service",
+      "Description": "Harbor based Container Management Solution. The free tier offers 1 GB of storage for private repositories.",
+      "Url": "https://container-registry.com/",
+      "Technologies": ["Docker"],
+      "Type": "Backend",
+      "Subtype": "Cloud storage",
+      "Free": true
+    },
+    {
+      "Name": "Docker Hub",
+      "Description": "One free private repository and unlimited public repositories to build and store Docker images",
+      "Url": "https://hub.docker.com/",
+      "Technologies": ["Docker"],
+      "Type": "Backend",
+      "Subtype": "Cloud storage",
+      "Free": true
+    },
+    {
+      "Name": "Quay",
+      "Description": "Build and store container images with unlimited free public repositories",
+      "Url": "https://quay.io/",
+      "Technologies": ["Docker"],
+      "Type": "Backend",
+      "Subtype": "Cloud storage",
+      "Free": true
+    },
+    {
+      "Name": "Qonversion",
+      "Description": "All-in-one cross-platform subscription management platform offering analytics, A/B testing, Apple Search Ads, remote configs, and growth tools for optimizing in-app purchases and monetization. Compatible with iOS, Android, React Native, Flutter, Unity, Cordova, Stripe, and web. Free up to $10k in monthly tracked revenue.",
+      "Url": "https://qonversion.io/",
+      "Technologies": [
+        "Swift",
+        "Java",
+        "Kotlin",
+        "Flutter",
+        "React Native",
+        "Unity",
+        "Cordova"
+      ],
+      "Type": "Backend",
+      "Subtype": "Billing",
+      "Free": true
+    },
+    {
+      "Name": "Glassfy",
+      "Description": "n-app subscriptions infrastructure, real-time subscription events and out-of-the-box monetization tools on iOS, Android, Stripe and Paddle. Free up to $10k monthly revenue.",
+      "Url": "https://glassfy.io/",
+      "Technologies": [
+        "Swift",
+        "SwiftUI",
+        "Objective-C",
+        "Kotlin",
+        "Java",
+        "Flutter",
+        "React Native",
+        "Ionic Capacitor"
+      ],
+      "Type": "Backend",
+      "Subtype": "Billing",
+      "Free": true
+    },
+    {
+      "Name": "Adapty",
+      "Description": "One-stop solution with open-source SDK for mobile in-app subscription integration to iOS, Android, React Native, Flutter, Unity, or web app. Free up to $10k monthly revenue.",
+      "Url": "https://adapty.io",
+      "Technologies": ["iOS", "Flutter", "React Native"],
+      "Type": "Backend",
+      "Subtype": "Billing",
+      "Free": true
+    },
+    {
+      "Name": "MailPopin",
+      "Description": " Get the most of your Stripe notifications with contextualized information.",
+      "Url": "https://mailpop.in/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Billing",
+      "Free": true
+    },
+    {
+      "Name": "RevenueCat",
+      "Description": "Hosted backend for in-app purchases and subscriptions (iOS and Android). Free up to $2.5k/mo in tracked revenue.",
+      "Url": "https://www.revenuecat.com/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Billing",
+      "Free": true
+    },
+    {
+      "Name": "Moesif",
+      "Description": "Generate revenue from APIs via usage-based billing. Connect to Stripe, Chargebee, etc. The free tier offers 30,000 events/month.",
+      "Url": "https://www.moesif.com/",
+      "Technologies": [
+        "Node",
+        "HTTP Request",
+        "JS",
+        "AWS Firehose",
+        "Fluent Bit",
+        "FluentD",
+        "Logstash",
+        "Segment",
+        "Python",
+        "Go",
+        "PHP",
+        "Ruby",
+        "Scala",
+        "Java",
+        "C#",
+        "Kong",
+        "Gravitee",
+        "Nginx",
+        "3scale",
+        "AWS Gateway",
+        "Azure",
+        "WSO2",
+        "Tyk",
+        "Envoy",
+        "Solo",
+        "Cloudflare",
+        "Zuplo",
+        "KarenD",
+        "Azure WebApp"
+      ],
+      "Type": "API",
+      "Subtype": "Billing",
+      "Free": true
+    },
+    {
+      "Name": "Nami ML",
+      "Description": "Complete platform for in-app purchases and subscriptions on iOS and Android, including no-code paywalls, CRM, and analytics. Free for all base features to run an IAP business.",
+      "Url": "https://www.namiml.com/",
+      "Technologies": [
+        "Swift",
+        "SwiftUI",
+        "Kotlin",
+        "Flutter",
+        "BrightScript",
+        "Unity",
+        "React Native"
+      ],
+      "Type": "Third party",
+      "Subtype": "Billing",
+      "Free": true
+    },
+    {
+      "Name": "CoinMarketCap",
+      "Description": "Provides cryptocurrency market data including the latest crypto and fiat currency exchange rates. The free tier offers 10K call credits/month",
+      "Url": "https://coinmarketcap.com/api/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "CurrencyFreaks",
+      "Description": "Provides current and historical currency exchange rates. Free DEVELOPER plan available with 1000 requests/month.",
+      "Url": "https://currencyfreaks.com/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "CoinGecko",
+      "Description": "ovides cryptocurrency market data including the latest crypto exchange rates and historical data. The demo api comes with a stable rate limit of 30 calls/min and a monthly cap of 10,000 calls.",
+      "Url": "https://www.coingecko.com/api",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "CurrencyApi",
+      "Description": "Live Currency Rates for Physical and Cryptocurrencies, delivered in JSON and XML. The free tier offers 1,250 API requests/month.",
+      "Url": "https://currencyapi.net/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "Currencylayer",
+      "Description": "Reliable Exchange Rates and Currency Conversion for your Business, 100 API requests/month free.",
+      "Url": "https://currencylayer.com/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "Exchange Rate API",
+      "Description": "An easy-to-use currency conversion JSON API. The free tier updates once per day with a limit of 1,500 requests/month.",
+      "Url": "https://www.exchangerate-api.com/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "FraudLabsPRO",
+      "Description": " Help merchants to prevent payment fraud and chargebacks. Free Micro Plan available with 500 queries/month.",
+      "Url": "https://www.fraudlabspro.com/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "fxRatesAPI",
+      "Description": "Provides real-time and historical exchange rates. The free tier requires attribution.",
+      "Url": "https://fxratesapi.com/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "CurrencyApi",
+      "Description": "Free currency conversion and exchange rate data API. Free 300 requests per month, 10 requests per minute for private use.",
+      "Url": "https://currencyapi.com/",
+      "Technologies": ["HTTP Request"],
+      "Type": "API",
+      "Subtype": "Market data",
+      "Free": true
+    },
+    {
+      "Name": "",
+      "Description": "",
+      "Url": "",
+      "Technologies": [],
+      "Type": "",
+      "Subtype": "",
+      "Free": true
+    },
+    {
+      "Name": "",
+      "Description": "",
+      "Url": "",
+      "Technologies": [],
+      "Type": "",
+      "Subtype": "",
+      "Free": true
+    },
+    {
+      "Name": "",
+      "Description": "",
+      "Url": "",
+      "Technologies": [],
+      "Type": "",
+      "Subtype": "",
+      "Free": true
+    },
+    {
+      "Name": "",
+      "Description": "",
+      "Url": "",
+      "Technologies": [],
+      "Type": "",
+      "Subtype": "",
+      "Free": true
+    },
+    {
+      "Name": "",
+      "Description": "",
+      "Url": "",
+      "Technologies": [],
+      "Type": "",
+      "Subtype": "",
+      "Free": true
+    }
+  ],
+  "Tools-2": [
+    {
+      "Frontend": {
+        "Frameworks y librerías": {
+          "Frameworks": [],
+          "Librerías de componentes": []
+        },
+        "Componentes UI": {},
+        "Fake Data": {},
+        "Recursos gráficos": {
+          "Recursos SVG": [],
+          "Stock de imágenes": [],
+          "Optimización de imágenes": []
+        },
+        "Playgrounds": {},
+        "Testing": {
+          "Frameworks de testing": [],
+          "Pruebas de integración": []
+        },
+        "Herramientas de diseño y prototipado": {
+          "Diseño": [],
+          "Prototipado": []
+        },
+        "Herramientas de accesibilidad": {}
+      },
+      "Backend": {
+        "Frameworks y librerías": {
+          "JavaScript": [],
+          "Python": [],
+          "PHP": [],
+          "Java": [],
+          "Ruby": []
+        },
+        "Bases de datos": {
+          "RDBMS": [],
+          "No SQL": [],
+          "ORM": []
+        },
+        "Autenticación": {
+          "Gestión de usuarios": [],
+          "OAuth": []
+        },
+        "Testing": {
+          "Frameworks": [],
+          "Performance": [],
+          "Integración": []
+        },
+        "Contenedores y virtualización": {
+          "Contenedores": [],
+          "Orquestación": [],
+          "Maquinas virtuales": []
+        },
+        "CI/CD": {
+          "CI": [],
+          "CD": []
+        },
+        "Monitorización y logging": {
+          "Monitorización": [],
+          "Logging": []
+        },
+        "Seguridad": {
+          "Escáneres de vulnerabilidades": [],
+          "Seguridad de dependencias": [],
+          "Certificados SSL": []
+        },
+        "API's y microservicios": {
+          "Pruebas de API's": [],
+          "Gateway de API's": []
+        },
+        //Pasar a hosting
+        "Servicios de nube": {}
+      },
+      "Learning": {
+        "Cursos online": {
+          "Generales": [],
+          "Especializaciones": []
+        },
+        "Plataformas interactivas": {
+          "Codificación Interactiva": [],
+          "Desafíos de programación": []
+        },
+        "Documentaciones y referencias": {
+          "Documentación oficial": [],
+          "Libros": []
+        },
+        "Comunidades y foros": {
+          "Comunidades": [],
+          "Foros": []
+        },
+        "Tutoriales y blogs": {
+          "Webs de tutoriales": [],
+          "Blogs y artículos": []
+        },
+        "Videos y tutoriales en YT": {},
+        "Certificaciones": {
+          "Tecnologías": [],
+          "Generales": []
+        }
+      }
+    }
+  ]
+}
