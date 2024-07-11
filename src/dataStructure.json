@@ -1,0 +1,37 @@
+{
+  "Tools": [
+    {
+      "Frontend": {
+        "Frameworks": {},
+        "UI Components": {},
+        "Fake Data": {},
+        "Recursos gráficos": {},
+        "Playgrounds": {},
+        "Testing": {},
+        "Herramientas de diseño y prototipado": {},
+        "Herramientas de accesibilidad": {}
+      },
+      "Backend": {
+        "Frameworks y librerías": {},
+        "Bases de datos": {},
+        "Autenticación": {},
+        "Testing": {},
+        "Contenedores": {},
+        "Virtualización": {},
+        "CI/CD": {},
+        "Monitorización y logging": {},
+        "Seguridad": {},
+        "API's y microservicios": {}
+      },
+      "Learning": {
+        "Cursos online": {},
+        "Plataformas interactivas": {},
+        "Documentaciones y referencias": {},
+        "Comunidades y foros": {},
+        "Tutoriales y blogs": {},
+        "Videos y tutoriales en YT": {},
+        "Certificaciones": {}
+      }
+    }
+  ]
+}
