@@ -31,6 +31,49 @@
         "Tutoriales y blogs": {},
         "Videos y tutoriales en YT": {},
         "Certificaciones": {}
+      },
+      "API's": {
+        "Payment gateway": {},
+        "Market data": {},
+        "Reservations and trips": {},
+        "Social media": {},
+        "Communication": {},
+        "Meteorology": {},
+        "Geography & maps": {},
+        "eCommerce": {},
+        "Storage and File Management": {},
+        "Authentication": {}
+      },
+      "Hosting": {
+        "Shared hosting": [],
+        "VPS": [],
+        "Dedicated Server": [],
+        "Cloud Hosting": [],
+        "Managed WordPress Hosting": [],
+        "App Hosting": [],
+        "Resellers Hosting": [],
+        "Hosting de Imágenes y Archivos": []
+      },
+      "Monitoring": {
+        "Infrastructure": {},
+        "Apps": {},
+        "Logging": {},
+        "Performance": {},
+        "Cloud monitoring": {},
+        "Containers & orquestadores": {},
+        "Security": {},
+        "Services & endpoints": {}
+      },
+      "AI": {
+        "Content generation": {},
+        "Programming assistant": {},
+        "Website analysis": {},
+        "Design and prototyping": {},
+        "Code generation and optimization": {},
+        "Chatbots & virtual assistants": {},
+        "Translation & localization": {},
+        "Image & video optimization": {},
+        "Detection & recognition": {}
       }
     }
   ]

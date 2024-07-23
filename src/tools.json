@@ -137,23 +137,7 @@
               "Url": "https://react.keepdesign.io",
               "Technologies": ["JS", "CSS", "React"],
               "Free": true
-            },
-            //Move to CSS
-            {
-              "Name": "Bootstrap",
-              "Description": "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.",
-              "Url": "https://getbootstrap.com/",
-              "Technologies": ["JS", "CSS"],
-              "Free": true
-            },
-            {
-              "Name": "Tailwind CSS",
-              "Description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
-              "Url": "https://tailwindcss.com/",
-              "Technologies": ["CSS"],
-              "Free": true
             }
-            //Move to CSS ^^
           ],
           "Tools for create components": [
             {
@@ -195,7 +179,7 @@
           ]
         },
         "Recursos gráficos": {
-          "Recursos SVG": [
+          "SVG Resources": [
             {
               "Name": "Feather",
               "Description": "Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.",
@@ -218,7 +202,7 @@
               "Free": true
             }
           ],
-          "Stock de imágenes": [
+          "Stock Images": [
             {
               "Name": "Unsplash",
               "Description": "",
@@ -241,7 +225,7 @@
               "Free": true
             }
           ],
-          "Optimización de imágenes": [
+          "Image Optimization": [
             {
               "Name": "",
               "Description": "",
@@ -251,63 +235,646 @@
             }
           ]
         },
-        "Playgrounds": {},
+        "Playgrounds": [
+          {
+            "Name": "CodePen",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "JSFiddle",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "CodeSandbox",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
         "Testing": {
-          "Frameworks de testing": [],
-          "Pruebas de integración": []
+          "Frameworks de testing": [
+            {
+              "Name": "Jest",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Mocha",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Pruebas de integración": [
+            {
+              "Name": "Cypress",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Selenium",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         },
         "Herramientas de diseño y prototipado": {
-          "Diseño": [],
-          "Prototipado": []
+          "Diseño": [
+            {
+              "Name": "Figma",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Sketch",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Prototipado": [
+            {
+              "Name": "InVision",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         },
-        "Herramientas de accesibilidad": {}
+        "Herramientas de accesibilidad": [
+          {
+            "Name": "Axe",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "WAVE",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Lighthouse ",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ]
       },
       "Backend": {
-        "Frameworks y librerías": {
+        "Frameworks & librerías": {
           "JavaScript": [],
           "Python": [],
           "PHP": [],
           "Java": [],
           "Ruby": []
         },
-        "Bases de datos": {
-          "RDBMS": [],
-          "No SQL": [],
-          "ORM": []
+        "Databases": {
+          "RDBMS": [
+            {
+              "Name": "MySQL",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "PostgreSQL",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "SQLite",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Microsoft SQL Server",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "No SQL": [
+            {
+              "Name": "MongoDB",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Redis",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Cassandra",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "CouchDB",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "ORM": [
+            {
+              "Name": "Sequelize (Node.js)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "TypeORM (Node.js)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "SQLAlchemy (Python)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Hibernate (Java)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         },
         "Autenticación": {
-          "Gestión de usuarios": [],
-          "OAuth": []
+          "OAuth": [
+            {
+              "Name": "Auth0",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Passport.js (Node.js)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Devise (Ruby on Rails)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "OpenID Connect",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         },
         "Testing": {
-          "Frameworks": [],
-          "Performance": [],
-          "Integración": []
+          "Frameworks": [
+            {
+              "Name": "Mocha",
+              "Description": "",
+              "Url": "",
+              "Technologies": ["JS"],
+              "Free": true
+            },
+            {
+              "Name": "Jest",
+              "Description": "",
+              "Url": "",
+              "Technologies": ["JS"],
+              "Free": true
+            },
+            {
+              "Name": "PyTest",
+              "Description": "",
+              "Url": "",
+              "Technologies": ["Python"],
+              "Free": true
+            },
+            {
+              "Name": "RSpec",
+              "Description": "",
+              "Url": "",
+              "Technologies": ["Ruby"],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Integración": [
+            {
+              "Name": "Postman",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Insomnia",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Performance": [
+            {
+              "Name": "JMeter",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "k6",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         },
-        "Contenedores y virtualización": {
-          "Contenedores": [],
-          "Orquestación": [],
-          "Maquinas virtuales": []
+        "Contenedores y orquestación": {
+          "Contenedores": [
+            {
+              "Name": "Docker",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Orquestación": [
+            {
+              "Name": "Kubernetes",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Docker Swarm",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         },
+        "Maquinas virtuales": [
+          {
+            "Name": "Vagrant",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "VirtualBox",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
         "CI/CD": {
-          "CI": [],
-          "CD": []
+          "CI": [
+            {
+              "Name": "Jenkins",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Travis CI",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "CircleCI",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "GitHub Actions",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "CD": [
+            {
+              "Name": "Docker",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Kubernetes",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Ansible",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Terraform",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         },
-        "Monitorización y logging": {
-          "Monitorización": [],
-          "Logging": []
-        },
-        "Seguridad": {
-          "Escáneres de vulnerabilidades": [],
-          "Seguridad de dependencias": [],
-          "Certificados SSL": []
+        "Security": {
+          "Vulnerability Scanner": [
+            {
+              "Name": "OWASP ZAP",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Burp Suite",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Dependencies security": [
+            {
+              "Name": "Snyk",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "WhiteSource",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "SSL Certificate": [
+            {
+              "Name": "Let's Encrypt",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "OpenSSL",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         },
         "API's y microservicios": {
-          "Pruebas de API's": [],
-          "Gateway de API's": []
-        },
-        //Pasar a hosting
-        "Servicios de nube": {}
+          "Pruebas de API's": [
+            {
+              "Name": "Postman",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Swagger",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Insomnia",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "API Gateway": [
+            {
+              "Name": "Kong",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Tyk",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "API Gateway de AWS",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        }
       },
       "Learning": {
         "Cursos online": {
@@ -334,6 +901,1889 @@
         "Certificaciones": {
           "Tecnologías": [],
           "Generales": []
+        }
+      },
+      "API's": {
+        "Pasarelas de pago": {
+          "APIs de pago": [
+            {
+              "Name": "Stripe",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Paypal API",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Square",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Authorize.net",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Braintree",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Adyen",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Qonversion",
+              "Description": "All-in-one cross-platform subscription management platform offering analytics, A/B testing, Apple Search Ads, remote configs, and growth tools for optimizing in-app purchases and monetization. Compatible with iOS, Android, React Native, Flutter, Unity, Cordova, Stripe, and web. Free up to $10k in monthly tracked revenue.",
+              "Url": "https://qonversion.io/",
+              "Technologies": [
+                "Swift",
+                "Java",
+                "Kotlin",
+                "Flutter",
+                "React Native",
+                "Unity",
+                "Cordova"
+              ],
+              "Free": true
+            },
+            {
+              "Name": "Glassfy",
+              "Description": "In-app subscriptions infrastructure, real-time subscription events and out-of-the-box monetization tools on iOS, Android, Stripe and Paddle. Free up to $10k monthly revenue.",
+              "Url": "https://glassfy.io/",
+              "Technologies": [
+                "Swift",
+                "SwiftUI",
+                "Objective-C",
+                "Kotlin",
+                "Java",
+                "Flutter",
+                "React Native",
+                "Ionic Capacitor"
+              ],
+              "Free": true
+            },
+            {
+              "Name": "Adapty",
+              "Description": "One-stop solution with open-source SDK for mobile in-app subscription integration to iOS, Android, React Native, Flutter, Unity, or web app. Free up to $10k monthly revenue.",
+              "Url": "https://adapty.io",
+              "Technologies": ["iOS", "Flutter", "React Native"],
+              "Free": true
+            },
+
+            {
+              "Name": "RevenueCat",
+              "Description": "Hosted backend for in-app purchases and subscriptions (iOS and Android). Free up to $2.5k/mo in tracked revenue.",
+              "Url": "https://www.revenuecat.com/",
+              "Technologies": ["HTTP Request"],
+              "Free": true
+            },
+            {
+              "Name": "Moesif",
+              "Description": "Generate revenue from APIs via usage-based billing. Connect to Stripe, Chargebee, etc. The free tier offers 30,000 events/month.",
+              "Url": "https://www.moesif.com/",
+              "Technologies": [
+                "Node",
+                "HTTP Request",
+                "JS",
+                "AWS Firehose",
+                "Fluent Bit",
+                "FluentD",
+                "Logstash",
+                "Segment",
+                "Python",
+                "Go",
+                "PHP",
+                "Ruby",
+                "Scala",
+                "Java",
+                "C#",
+                "Kong",
+                "Gravitee",
+                "Nginx",
+                "3scale",
+                "AWS Gateway",
+                "Azure",
+                "WSO2",
+                "Tyk",
+                "Envoy",
+                "Solo",
+                "Cloudflare",
+                "Zuplo",
+                "KarenD",
+                "Azure WebApp"
+              ],
+              "Free": true
+            },
+            {
+              "Name": "Nami ML",
+              "Description": "Complete platform for in-app purchases and subscriptions on iOS and Android, including no-code paywalls, CRM, and analytics. Free for all base features to run an IAP business.",
+              "Url": "https://www.namiml.com/",
+              "Technologies": [
+                "Swift",
+                "SwiftUI",
+                "Kotlin",
+                "Flutter",
+                "BrightScript",
+                "Unity",
+                "React Native"
+              ],
+              "Free": true
+            }
+          ]
+        },
+        "Market data": {
+          "Market data": [
+            {
+              "Name": "Alpha Vantage",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "IEX Cloud",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Finnhub",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Quandl",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Etrade",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Reservations and trips": {
+          "Flight booking": [
+            {
+              "Name": "Skyscanner",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Amadeus",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Sabre",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Lufthansa",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Hotel booking": [
+            {
+              "Name": "Booking",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Expedia",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Airbnb",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Hotelbeds",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Transport APIs": [
+            {
+              "Name": "Uber",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Lyft",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Google Maps",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "HERE",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Social media": {
+          "Social media": [
+            {
+              "Name": "Facebook Graph",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "X",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Instagram",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "LinkedIn",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Reddit",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Pinterest",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Communication": {
+          "Messaging": [
+            {
+              "Name": "Twilio",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Nexmo (vonage)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "SendGrid",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Mailgun",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Video conference": [
+            {
+              "Name": "Zoom",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Microsoft Teams",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Google Meet",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Jitsi",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Meteorology": {
+          "Meteorology": [
+            {
+              "Name": "OpenWeatherMap",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Weatherstack",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "AccuWeather",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Weatherbit",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Climacell",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Geography & maps": {
+          "Maps & geolocation": [
+            {
+              "Name": "Google Maps",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Mapbox",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "OpenStreetMap",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "HERE",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "TomTom",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "eCommerce": {
+          "eCommerce": [
+            {
+              "Name": "Shopify",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "WooCommerce",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "BigCommerce",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Magneto",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "eBay",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Storage and File Management": {
+          "Cloud storage": [
+            {
+              "Name": "AWS S3",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Google Drive",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Dropbox",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Box",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Microsoft OneDrive",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Authentication": {
+          "Auth": [
+            {
+              "Name": "Auth0",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Okta",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Firebase Authentication",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Microsoft Azure Active Directory",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        }
+      },
+      "Hosting": {
+        "Shared hosting": [
+          {
+            "Name": "Bluehost",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "HostGator",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "SiteGround",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "A2 Hosting",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "DreamHost",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "VPS": [
+          {
+            "Name": "DigitalOcean",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Linode",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Vultr",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "InMotion Hosting",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "HostWinds",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "Dedicated Server": [
+          {
+            "Name": "Liquid Web",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Bluehost",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "HostGator",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "InMotion Hosting",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "GoDaddy",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "Cloud Hosting": [
+          {
+            "Name": "AWS",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Google Cloud Plataform",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Microsoft Azure",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "IBM Cloud",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Alibaba Cloud",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "Managed WordPress Hosting": [
+          {
+            "Name": "WP Engine",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Kinsta",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Flywheel",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "SiteGround",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Bluehost",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "App Hosting": [
+          {
+            "Name": "Heroku",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Firebase",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "AWS Elastic Beanstalk",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Google App Engine",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Vercel",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "Hosting de eCommerce": [
+          {
+            "Name": "Shopify",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "BigCommerce",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Magento Hosting",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "WooCommerce Hosting",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Volusion",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "Free Hosting": [
+          {
+            "Name": "Github Pages",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Netlify",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Vercel (plan gratuito)",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "InfinityFree",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "AwardSpace",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "Resellers Hosting": [
+          {
+            "Name": "ResellerClub",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "A2 Hosting",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "InMotion Hosting",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "SiteGround",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "GreenGeeks",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ],
+        "Hosting de Imágenes y Archivos": [
+          {
+            "Name": "Cloudinary",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "ImageKit",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Imgur (para imágenes)???",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Amazon S3",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          },
+          {
+            "Name": "Google Cloud Storage",
+            "Description": "",
+            "Url": "",
+            "Technologies": [],
+            "Free": true
+          }
+        ]
+      },
+      "Monitoring": {
+        "Infrastructure": {
+          "Server & System": [
+            {
+              "Name": "Nagios",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Zabbix",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Prometheus",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Icinga",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Datadog",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Networks": [
+            {
+              "Name": "PRTG Network Monitor",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "ZabSolarWinds Network Performance Monitorbix",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Wireshark",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Nagios Network Analyzer",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Apps": {
+          "AMP (Application Performance Monitoring)": [
+            {
+              "Name": "New Relic",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "AppDynamics",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Dynatrace",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Elastic APM",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Splunk APM",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Logging": {
+          "Log Management and Analysis": [
+            {
+              "Name": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Graylog",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Splunk",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Fluentd",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Loggly",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Performance": {
+          "Frontend performance": [
+            {
+              "Name": "Google Lighthouse",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Pingdom",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "GTmetrix",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "WebPageTest",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Unlighthouse",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Load": [
+            {
+              "Name": "Apache JMeter",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Gatling",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "LoadRunner",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "k6",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Cloud monitoring": {
+          "Cloud services": [
+            {
+              "Name": "AWS CloudWatch",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Azure Monitor",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Google Cloud Operations Suite (anteriormente Stackdriver)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "IBM Cloud Monitoring",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Containers & orquestadores": {
+          "Contenedores": [
+            {
+              "Name": "cAdvisor",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Grafana",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Orquestadores": [
+            {
+              "Name": "Kubernetes Dashboard",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Rancher",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Datadog",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Security": {
+          "Detection & response": [
+            {
+              "Name": "Splunk Security Information and Event Management (SIEM)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "AlienVault USM",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "OSSEC",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Wazuh",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Services & endpoints": {
+          "Availability and Uptime": [
+            {
+              "Name": "UptimeRobot",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "StatusCake",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Pingdom",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Site24x7",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        }
+      },
+      "AI": {
+        "Content generation": {
+          "Text generation": [
+            {
+              "Name": "OpenaiGPT",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Jasper",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Copy.ai",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Writesonic",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Rytr",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Image generation": [
+            {
+              "Name": "DALL-E",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "MidJourney",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Artbreeder",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "DeepArt",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Programming assistant": {
+          "Codding assistant": [
+            {
+              "Name": "Github Copilot",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Tabnine",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Kite",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Code reviewer": [
+            {
+              "Name": "DeppCode",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "CodeGuru",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Snyk",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Website analysis": {
+          "SEO analysis": [
+            {
+              "Name": "SurferSEO",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "ClearScope",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "MarketMuse",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Performance optimization": [
+            {
+              "Name": "PageSpeed Insights",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "User analysis": [
+            {
+              "Name": "Hotjar",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Crazy Egg",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "FullStory",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Automated design and prototyping": {
+          "Graphic design": [
+            {
+              "Name": "Adobe Sensei",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Canva con IA",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Fotor",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Design UI/UX": [
+            {
+              "Name": "Figma (plugins)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Sketch (plugins)",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Uizard",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Code generation and optimization": {
+          "Code generators": [
+            {
+              "Name": "DeepCognition",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Codex",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Code optimization": [
+            {
+              "Name": "Terser",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "HTMLMinifier",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Chatbots & virtual assistants": {
+          "Chatbots": [
+            {
+              "Name": "Dialogflow",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Rasa",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Botpress",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Virtual assistants": [
+            {
+              "Name": "Amazon Lex",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Microsoft Bot Framework",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "IBM Watson Assistant",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Translation & localization": {
+          "Automated translation": [
+            {
+              "Name": "Google Cloud Translation API",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "DeepL API",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Microsoft Translator API",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Localization": [
+            {
+              "Name": "Lokalise",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Phrase",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Image & video optimization": {
+          "Image compression & optimization": [
+            {
+              "Name": "TinyPNG",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "ImageOptim",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Kraken.io",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Video optimization": [
+            {
+              "Name": "HandBrake",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Cloudinary",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
+        },
+        "Detection & recognition": {
+          "Image & video recognition": [
+            {
+              "Name": "Google Vision AI",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Amazon Rekognition",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Microsoft Azure Computer Vision",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ],
+          "Voice recognition": [
+            {
+              "Name": "Google Speech-to-Text",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "IBM Watson Speech to Text",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "Microsoft Azure Speech",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            },
+            {
+              "Name": "",
+              "Description": "",
+              "Url": "",
+              "Technologies": [],
+              "Free": true
+            }
+          ]
         }
       }
     }
