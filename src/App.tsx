@@ -1,39 +1,43 @@
 import './App.css'
-import { BarsSvg } from './assets/barsSvg'
-import { MagnifyingGlass } from './assets/MagnifyingGlass'
-import { ToolsSections } from './components/ToolsSections'
-import { useState } from 'react'
+import { lazy, Suspense, useState } from 'react'
+import { Route, Routes, useLocation } from 'react-router-dom'
+import { Nav } from './components/Nav'
+import { Sidebar } from './components/Sidebar'
 import { Footer } from './components/Footer'
-import { Sidebar } from './assets/Sidebar'
+import { AnimatePresence } from 'framer-motion'
+
+const ToolsSections = lazy(() => import('./sections/ToolsSections'))
+const ToolsSection = lazy(() => import('./sections/ToolsSection'))
 
 function App() {
-  const [openSidebar, setOpenSidebar] = useState(true)
+  const [openSidebar, setOpenSidebar] = useState(false)
+  const [showModal, setShowModal] = useState(false)
   const handleBarsClick = (): void => {
     setOpenSidebar(!openSidebar)
   }
+  const location = useLocation()
 
   return (
     <>
-      <nav className='flex flex-row w-full h-16 m-0 p-3 items-center justify-between gap-3 sm:gap-0 fixed top-0 align-middle z-0 bg-indigo-950/50 backdrop-blur-md'>
-        {/* <div className='flex flex-row items-center w-fit gap-x-16 justify-between lg:w-56'> */}
-        <BarsSvg handleClick={handleBarsClick} />
-        <h1 className='text-2xl inter-regular-400'>MDK Tools</h1>
-        {/* </div> */}
-        <div className='flex lg:pe-28'>
-          <input
-            id='searchbar'
-            placeholder='ctrl+k'
-            className='rounded-s-full sm:ps-3 py-1 inter-300 w-0 sm:w-52 p-0'
-            type='text'
-          />
-          <button className='sm:bg-indigo-700 rounded-e-full w-7 lg:w-10 flex justify-center items-center'>
-            <MagnifyingGlass />
-          </button>
-        </div>
-      </nav>
+      <Nav
+        showModal={showModal}
+        setShowModal={setShowModal}
+        handleClick={handleBarsClick}
+      />
       <Sidebar openSidebar={openSidebar} handleBarsClick={handleBarsClick} />
-      <main className='flex justify-center content-center h-screen'>
-        <ToolsSections />
+      <main
+        onKeyDownCapture={a => console.log(a)}
+        className='flex my-16 justify-center content-center min-h-screen'
+      >
+        <Suspense fallback={<div>Loading</div>}>
+          <AnimatePresence mode='wait'>
+            <Routes location={location} key={location.pathname}>
+              <Route path='/' element={<ToolsSections />} />
+              <Route path='/:sectionName' element={<ToolsSection />} />
+            </Routes>
+          </AnimatePresence>
+        </Suspense>
+        <input type='checkbox' />
       </main>
       <Footer />
     </>
