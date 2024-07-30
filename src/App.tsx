@@ -8,6 +8,7 @@ import { AnimatePresence } from 'framer-motion'
 
 const ToolsSections = lazy(() => import('./sections/ToolsSections'))
 const ToolsSection = lazy(() => import('./sections/ToolsSection'))
+const ToolsSubSection = lazy(() => import('./sections/ToolsSubSection'))
 
 function App() {
   const [openSidebar, setOpenSidebar] = useState(false)
@@ -33,11 +34,14 @@ function App() {
           <AnimatePresence mode='wait'>
             <Routes location={location} key={location.pathname}>
               <Route path='/' element={<ToolsSections />} />
-              <Route path='/:sectionName' element={<ToolsSection />} />
+              <Route path='/section/:sectionName' element={<ToolsSection />} />
+              <Route
+                path='/subSection/:subSectionName'
+                element={<ToolsSubSection />}
+              />
             </Routes>
           </AnimatePresence>
         </Suspense>
-        <input type='checkbox' />
       </main>
       <Footer />
     </>

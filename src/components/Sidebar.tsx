@@ -67,12 +67,14 @@ export function Sidebar({ openSidebar, handleBarsClick }: SidebarProps) {
               >
                 <ul>
                   {tools.subsections.map(tool => (
-                    <li
-                      key={tool.subsection_name}
-                      className='cursor-pointer hover:bg-indigo-700/20 rounded-xl p-1.5 transition-all duration-500'
-                    >
-                      {tool.subsection_name}
-                    </li>
+                    <Link to={'/subSection/' + tool.subsection_name}>
+                      <li
+                        key={tool.subsection_name}
+                        className='cursor-pointer hover:bg-indigo-700/20 rounded-xl p-1.5 transition-all duration-500'
+                      >
+                        {tool.subsection_name}
+                      </li>
+                    </Link>
                   ))}
                 </ul>
               </AccordionDetails>

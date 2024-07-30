@@ -11,7 +11,7 @@ function ToolsSections() {
           key={tools.section_name}
           className='toolSection flex flex-col justify-center items-center'
         >
-          <Link to={tools.section_name}>
+          <Link to={'/section/' + tools.section_name}>
             <div>
               <StockImagesIcon />
             </div>
