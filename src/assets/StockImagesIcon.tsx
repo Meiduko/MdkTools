@@ -1,4 +1,4 @@
-export function StockImagesIcon() {
+export default function StockImagesIcon() {
   return (
     <svg
       width='144'

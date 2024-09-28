@@ -23,12 +23,12 @@ export function Nav({ handleClick, showModal, setShowModal }: NavProps) {
   })
 
   return (
-    <nav className='flex flex-row w-full h-16 m-0 p-3 items-center justify-between gap-3 sm:gap-0 fixed top-0 align-middle z-10 bg-indigo-950/50 backdrop-blur-md'>
+    <nav className='flex w-full h-16 m-0 p-3 items-center justify-between fixed top-0 align-middle z-10 bg-indigo-950/50 backdrop-blur-md'>
       <BarsSvg handleClick={handleClick} />
       <Link to={'/'}>
         <h1 className='text-2xl inter-regular-400'>MDK Tools</h1>
       </Link>
-      <div className='flex lg:pe-28'>
+      <div className='flex '>
         <input
           id='searchbar'
           placeholder='ctrl+k'

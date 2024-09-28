@@ -28,7 +28,7 @@ function App() {
       <Sidebar openSidebar={openSidebar} handleBarsClick={handleBarsClick} />
       <main
         onKeyDownCapture={a => console.log(a)}
-        className='flex my-16 justify-center content-center min-h-screen'
+        className='flex pt-16 justify-center content-center min-h-screen'
       >
         <Suspense fallback={<div>Loading</div>}>
           <AnimatePresence mode='wait'>
@@ -36,7 +36,7 @@ function App() {
               <Route path='/' element={<ToolsSections />} />
               <Route path='/section/:sectionName' element={<ToolsSection />} />
               <Route
-                path='/subSection/:subSectionName'
+                path='/subsection/:subSectionName'
                 element={<ToolsSubSection />}
               />
             </Routes>
