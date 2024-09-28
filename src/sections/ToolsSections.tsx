@@ -1,5 +1,5 @@
 import AllTools from '../tools.json'
-import { StockImagesIcon } from '../assets/StockImagesIcon'
+import StockImagesIcon from '../assets/StockImagesIcon'
 import { Link } from 'react-router-dom'
 import transition from '../logic/transition'
 
