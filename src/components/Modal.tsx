@@ -31,8 +31,8 @@ export default function Modal({ showModal }: ModalProps) {
         id='modalSection'
         className='scrollbar-thin scrollbar-thumb-[#ffb74d] scrollbar-thumb-rounded-sm scrollbar-track-transparent scrollbar-corner-transparent'
       >
-        {a.map(a => (
-          <div className='modalResult '>
+        {a.map((a, _) => (
+          <div key={_} className='modalResult '>
             <h3 className='modalResultTitle'>Tool Name</h3>
             <div className='modalResultDescriptionContainer'>
               <p className='modalResultDescription'>

@@ -6,7 +6,7 @@ function Home() {
   return (
     <ul className='toolSections'>
       {AllTools.Tools.map(tools => (
-        <Card firstLevel name={tools.section_name} />
+        <Card key={tools.section_name} firstLevel name={tools.section_name} />
       ))}
     </ul>
   )
