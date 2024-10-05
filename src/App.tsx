@@ -18,73 +18,41 @@ const Tools = lazy(() => import('./sections/Tools'))
 function App() {
   const [openSidebar, setOpenSidebar] = useState(false)
   const [showModal, setShowModal] = useState(false)
-  const toggleOpenSidebar = () => {
-    setOpenSidebar(!openSidebar)
+  const location = useLocation()
+
+  const handleBarsClick = (): void => {
+    setOpenSidebar(openSidebar => !openSidebar)
+    setShowModal(false)
   }
-  const closeSidebar = () => {
+
+  const toggleModal = () => {
+    setShowModal(showModal => !showModal)
     setOpenSidebar(false)
   }
 
   const openModal = () => {
     setShowModal(true)
-    closeSidebar()
+    setOpenSidebar(false)
     document.getElementById('modalInput')?.focus()
-  }
-  const closeModal = () => {
-    setShowModal(false)
-  }
-
-  const toggleModal = () => {
-    if (showModal === false) {
-      openModal()
-    } else if (showModal === true) {
-      closeModal()
-    }
-  }
-
-  const handleBarsClick = (): void => {
-    toggleOpenSidebar()
-  }
-
-  const location = useLocation()
-
-  const handleKeyDown = (event: KeyboardEvent) => {
-    if (event.ctrlKey && event.key === 'k') {
-      event.preventDefault()
-      toggleModal()
-    } else if (event.key === 'Escape') {
-      event.preventDefault()
-      setShowModal(false)
-      closeSidebar()
-    }
   }
 
   useEffect(() => {
-    window.addEventListener('keydown', e => {
-      handleKeyDown(e)
-    })
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.ctrlKey && event.key === 'k') {
+        event.preventDefault()
+        toggleModal()
+      } else if (event.key === 'Escape') {
+        event.preventDefault()
+        setOpenSidebar(false)
+        setShowModal(false)
+      }
+      return
+    }
+    window.addEventListener('keydown', handleKeyDown)
     return () => {
-      window.removeEventListener('keydown', e => {
-        handleKeyDown(e)
-      })
+      window.removeEventListener('keydown', handleKeyDown)
     }
   }, [])
-
-  // useEffect(() => {
-  //   document.getElementById('searchBtn')?.addEventListener('click', e => {
-  //     e.preventDefault()
-  //     document.getElementById('modalInput')?.focus()
-  //   })
-  //   document.getElementById('navbarInput')?.addEventListener('click', e => {
-  //     e.preventDefault()
-  //     document.getElementById('modalInput')?.focus()
-  //   })
-  //   return () => {
-  //     document.removeEventListener('click', () => {
-  //       document.getElementById('modalInput')?.focus()
-  //     })
-  //   }
-  // })
 
   const handleMainClick = (): void => {
     setOpenSidebar(false)

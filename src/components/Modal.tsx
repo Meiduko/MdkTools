@@ -1,5 +1,6 @@
 import '../styles/components/Modal.css'
 import { MagnifyingGlass } from '../assets/MagnifyingGlass'
+import { useEffect } from 'react'
 
 interface ModalProps {
   showModal: boolean
@@ -7,6 +8,11 @@ interface ModalProps {
 
 export default function Modal({ showModal }: ModalProps) {
   const a: Array<string> = ['a', 'b', 'c', 'd', '2']
+  useEffect(() => {
+    if (showModal) {
+      document.getElementById('modalInput')?.focus()
+    }
+  }, [showModal])
   return (
     <section id='modal' className='backdrop-blur-sm' data-show={showModal}>
       <div id='modalInputContainer'>
@@ -15,6 +21,7 @@ export default function Modal({ showModal }: ModalProps) {
           className='searchbar inter-500 tertiaryBrown'
           placeholder='Search...'
           type='text'
+          disabled={!showModal}
         />
         <button id='modalInputBtn' className='secondaryBtn'>
           <MagnifyingGlass />
