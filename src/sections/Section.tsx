@@ -16,7 +16,11 @@ function Section() {
           return tools.section_name === sectionName
             ? tools.subsections.map(subsection => {
                 return (
-                  <Card firstLevel={false} name={subsection.subsection_name} />
+                  <Card
+                    key={subsection.subsection_name}
+                    firstLevel={false}
+                    name={subsection.subsection_name}
+                  />
                 )
               })
             : null
