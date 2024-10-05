@@ -44,12 +44,6 @@ nav>a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 6px;
-  padding-right: 6px;
-  border-start-end-radius: 8px;
-  border-end-end-radius: 8px;
-  border-start-start-radius: 8px;
-  border-end-start-radius: 8px;
 
   @media (min-width: 1024px) {
     width: 40px;
