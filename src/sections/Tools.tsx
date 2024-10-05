@@ -12,22 +12,23 @@ function Tools() {
     <div id='toolsContainer'>
       <h2>{subSectionName.subSectionName}</h2>
       <ul id='items'>
-        {AllTools.Tools.map((Tools: ToolsType, _) => {
+        {AllTools.Tools.map((Tools: ToolsType) => {
           return Tools.subsections.map((subsection: Subsection) => {
             return subsection.subsection_name === subSectionName.subSectionName
               ? subsection.Categories?.map(category => {
                   return (
-                    <li id='itemsRow' key={Tools.section_name + _}>
+                    <li id='itemsRow' key={category.category_name}>
                       <h3 id='categoryTitle'>{category.category_name}</h3>
                       {
                         // Para Visualizar
                       }
                       <ul id='categoryRow'>
                         {category.items?.map(tools => (
-                          <a href={tools.Url} target='_blank'>
-                            <li
+                          <li key={tools.Url}>
+                            <a
                               id='toolCard'
-                              key={tools.Url}
+                              href={tools.Url}
+                              target='_blank'
                               className='primaryCard'
                             >
                               <h4 id='toolTitle'> {tools.name}</h4>
@@ -42,8 +43,8 @@ function Tools() {
                                 </ul>
                               ) : null}
                               <IsToolFree isFree={tools.Free} />
-                            </li>
-                          </a>
+                            </a>
+                          </li>
                         ))}
                       </ul>
                       {
