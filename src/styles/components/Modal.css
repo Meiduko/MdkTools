@@ -1,0 +1,88 @@
+#modal {
+  height: fit-content;
+  max-height: 600px;
+  width: 60%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: #10103A;
+  box-shadow: inset 9px 9px 18px #0d0d2f,
+    inset -9px -9px 18px #131345;
+}
+
+#modal:focus {
+  display: absolute;
+}
+
+#modalInputContainer {
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  position: sticky;
+}
+
+#modalInput {
+  width: 100%;
+  box-shadow: -2px 8px 15px #0d0d30;
+}
+
+#modalInputBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px 0 8px;
+  border-start-end-radius: 8px;
+  border-end-end-radius: 8px;
+}
+
+#modalSection {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 32px;
+  overflow-y: scroll;
+
+  @media(max-width: 1024px) {
+    padding: 24px 6px 0px 6px
+  }
+}
+
+.modalResult {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 20px 12px 20px;
+  border-radius: 8px;
+  background: #10103A;
+  box-shadow: 14px 14px 24px #0d0d2e,
+    -14px -14px 24px #131346;
+}
+
+.modalResultTitle {
+  width: fit-content;
+  padding-inline-end: 20px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.modalResultDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalResultDescription {
+  max-height: 48px;
+  overflow: clip;
+}
+
+.modalResultBtn {
+  align-self: end;
+  padding: 8px;
+}

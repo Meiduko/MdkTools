@@ -1,3 +1,4 @@
+import '../styles/assets/transition.css'
 import { motion } from 'framer-motion'
 
 const transition = (OgComponent: () => JSX.Element) => {

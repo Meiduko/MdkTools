@@ -1,0 +1,78 @@
+#toolsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#toolsContainer>h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+#items {
+  width: 70%;
+  padding-top: 16px;
+  display: grid;
+  grid-template-rows: repeat(auto-fill);
+  gap: 20vh;
+  justify-items: center;
+  vertical-align: top;
+  text-align: center;
+
+  @media(min-width: 768px) {
+    width: 50%;
+  }
+}
+
+#itemsRow {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#categoryTitle {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+#categoryRow {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+#toolCard {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#toolTitle {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+#toolDescription {
+  max-height: 72px;
+  overflow-y: clip;
+  transition: height 200ms;
+  text-align: initial;
+  padding-inline: 12px;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 12px;
+  justify-content: center;
+  gap: 16px
+}
+
+.tech {
+  background: #000;
+  border-radius: 8px;
+  padding: 2px;
+  margin: 2px;
+}

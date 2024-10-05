@@ -1,3 +1,4 @@
+import '../styles/components/Sidebar.css'
 import { BarsSvg } from '../assets/barsSvg'
 import AllTools from '../tools.json'
 import { OpenArrow } from '../assets/OpenArrow'
@@ -20,59 +21,39 @@ export function Sidebar({ openSidebar, handleBarsClick }: SidebarProps) {
   }
 
   return (
-    <div
-      id='sidebar'
-      className='inter-500 transition-all duration-500 text-xl flex flex-col backdrop-blur-sm z-10 bg-white/50 text-black w-96 gap-8 h-screen '
-      data-show={openSidebar}
-    >
-      <div className='flex flex-row gap-6  pt-4 px-3 h-16'>
+    <div id='sidebar' data-show={openSidebar}>
+      <div id='sidebarHeader'>
         <BarsSvg handleClick={handleBarsClick} />
         <Link to={'/'}>
-          <h2 className='text-2xl '>MDK Tools</h2>
+          <h2 id='sidebarTitle'>MDK Tools</h2>
         </Link>
       </div>
-      <ul className='flex flex-col gap-4 scrollbar-thin scrollbar-thumb-indigo-700/40 scrollbar-thumb-rounded-sm scrollbar-track-transparent scrollbar-corner-transparent overflow-y-scroll'>
+      <ul
+        id='sidebarUl'
+        className='scrollbar-thin scrollbar-thumb-[#ffb74d] scrollbar-thumb-rounded-full scrollbar-track-transparent scrollbar-corner-transparent'
+      >
         {AllTools.Tools.map((tools, index) => (
           <ul key={tools.section_name}>
             <Accordion
-              sx={{
-                backgroundColor: 'transparent',
-                boxShadow: 'none',
-                border: 'none'
-              }}
-              className='toolSection flex flex-col justify-start mx-3'
+              id='sidebarAccordion'
               expanded={expanded === 'panel' + index}
               onChange={() => handleChange('panel' + index)}
             >
-              <AccordionSummary
-                expandIcon={<OpenArrow />}
-                sx={{
-                  borderRadius: '12px',
-                  paddingX: '6px',
-                  marginX: '10px',
-                  transition: 'ease-in',
-                  transitionDuration: '500ms',
-                  ':hover': { backgroundColor: '#1f1b725f' }
-                }}
-              >
-                {tools.section_name}
+              <AccordionSummary id='sidebarSection' expandIcon={<OpenArrow />}>
+                <h3 className='sidebarSectionName'>{tools.section_name}</h3>
               </AccordionSummary>
-              <AccordionDetails
-                sx={{
-                  borderLeft: '1px solid #000',
-                  marginLeft: '16px',
-                  paddingBottom: '0px',
-                  transitionDuration: '5500ms'
-                }}
-              >
+              <AccordionDetails id='sidebarSubsectionsContainer'>
                 <ul>
                   {tools.subsections.map(tool => (
                     <Link to={'/subSection/' + tool.subsection_name}>
                       <li
+                        id='sidebarSubsection'
                         key={tool.subsection_name}
-                        className='cursor-pointer hover:bg-indigo-700/20 rounded-xl p-1.5 transition-all duration-500'
+                        onClick={() => handleBarsClick()}
                       >
-                        {tool.subsection_name}
+                        <p className='sidebarSubsectionName'>
+                          {tool.subsection_name}
+                        </p>
                       </li>
                     </Link>
                   ))}

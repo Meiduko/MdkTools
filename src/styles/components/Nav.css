@@ -1,0 +1,63 @@
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  --tw-backdrop-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  background-color: rgb(30 27 75 / 0.5)
+}
+
+nav>a {
+  display: grid;
+}
+
+#navbarTitle {
+  justify-self: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  text-wrap: nowrap;
+}
+
+#searchbarContainer {
+  display: flex;
+  justify-self: end;
+}
+
+#navbarInput {
+  width: 208px;
+  cursor: text;
+
+  @media (max-width: 850px) {
+    width: 0;
+    padding-inline-start: 0px;
+  }
+}
+
+#searchBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-start-end-radius: 8px;
+  border-end-end-radius: 8px;
+  border-start-start-radius: 8px;
+  border-end-start-radius: 8px;
+
+  @media (min-width: 1024px) {
+    width: 40px;
+  }
+
+  @media (min-width: 850px) {
+    border-start-start-radius: 0px;
+    border-end-start-radius: 0px;
+
+  }
+}

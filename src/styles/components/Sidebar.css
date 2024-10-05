@@ -1,0 +1,114 @@
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 384px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+
+  gap: 32px;
+
+  font-size: 20px;
+  line-height: 28px;
+
+  z-index: 2;
+
+  background-color: rgb(0 0 0 / 0.1);
+  color: #f0f0f0;
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+#sidebar[data-show='false'] {
+  left: -384px;
+}
+
+#sidebarHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 12px 12px 12px;
+  height: 64px;
+  font-weight: 500;
+}
+
+#sidebarTitle {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#sidebarUl {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: scroll;
+  font-weight: 400;
+}
+
+.openArrow {
+  width: 24px;
+  height: 24px;
+  color: #f0f0f0;
+  stroke: #f0f0f0;
+  stroke-width: 1.5;
+}
+
+#sidebarAccordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0 12px 0 12px;
+  color: #f0f0f0;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+#sidebarSection {
+  border-radius: 8px;
+  padding-inline: 5px;
+  margin-inline: 10px;
+  background-color: none;
+  transition: background-color 250ms ease-in;
+}
+
+#sidebarSection:hover {
+  background-color: #ffb84d85;
+}
+
+.sidebarSectionName {
+  font-weight: 500;
+  padding-inline-start: 4px;
+}
+
+#sidebarSubsectionsContainer {
+  border-left: 1px solid;
+  margin-left: 16px;
+  padding-bottom: 0px;
+}
+
+#sidebarSubsection {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 6px;
+  background-color: transparent;
+  transition: background-color 250ms ease-in;
+}
+
+#sidebarSubsection:hover {
+  background-color: #b8b48480;
+}
+
+.sidebarSubsectionName {
+  font-weight: 300;
+}

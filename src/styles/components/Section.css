@@ -1,0 +1,16 @@
+#Section {
+  padding-top: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#sectionName {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  padding-bottom: 12px;
+}

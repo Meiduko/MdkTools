@@ -1,0 +1,72 @@
+body {
+  /* background-image: linear-gradient(to right, #060150, #1b166b, #060150); */
+  /* background-image: linear-gradient(to right, #10103A, #0f0470, #10103A); */
+  background: #10103A;
+  color: #f0f0f0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 48px 192px 48px 192px;
+  border-top: 2px solid #ffb74d;
+  background-color: #b8b484;
+  color: #555;
+  font-weight: 500;
+}
+
+.searchbar {
+  text-align: start;
+  font-weight: 500;
+  padding: 8px 0 8px 20px;
+  padding-inline-start: 12px;
+  border-end-start-radius: 8px;
+  border-start-start-radius: 8px;
+  background: #b8b484;
+  color: #555;
+}
+
+.searchbar::placeholder {
+  color: #555;
+}
+
+.secondaryBrown {
+  background: #ffb74d;
+}
+
+.tertiaryBrown {
+  background: #ffcf71;
+}
+
+.tertiaryBrown {
+  background: #b8b484;
+}
+
+.toolSections {
+  width: 70%;
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,
+      minmax(185px, 1fr));
+  gap: 20vh;
+  justify-items: center;
+}
+
+.toolSections>li {
+  height: fit-content;
+  width: fit-content;
+}
