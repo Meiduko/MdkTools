@@ -14,10 +14,12 @@
   background: #10103A;
   box-shadow: inset 9px 9px 18px #0d0d2f,
     inset -9px -9px 18px #131345;
+  overflow-y: hidden;
+  transition: top 300ms;
 }
 
 #modal[data-show='false'] {
-  display: none;
+  top: -1500px;
 }
 
 #modal:focus {
