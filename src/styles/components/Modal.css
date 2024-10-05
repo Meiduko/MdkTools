@@ -28,6 +28,12 @@
 
 #modalInputContainer {
   display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#modalSearchbar {
+  display: flex;
   width: 100%;
   border-radius: 8px;
   position: sticky;
@@ -42,9 +48,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 8px 0 8px;
-  border-start-end-radius: 8px;
-  border-end-end-radius: 8px;
+  border-radius: 0 8px 8px 0;
+}
+
+#modalFilters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-inline: 16px;
+}
+
+.modalSelect {
+  border-radius: 8px;
+  padding: 2px;
+  background-color: #ffb74d;
 }
 
 #modalSection {

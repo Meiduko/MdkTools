@@ -14,6 +14,8 @@
 
 .secondaryBtn {
   background: #ffb74d;
+  border-radius: 8px;
+  padding: 0 8px 0 8px;
   box-shadow: 1px 1px 5px #080824,
     -1px -1px 5px #4c5181;
   transition: box-shadow .17s;
