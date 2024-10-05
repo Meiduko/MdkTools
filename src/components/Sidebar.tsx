@@ -33,7 +33,7 @@ export function Sidebar({ openSidebar, handleBarsClick }: SidebarProps) {
         className='scrollbar-thin scrollbar-thumb-[#ffb74d] scrollbar-thumb-rounded-full scrollbar-track-transparent scrollbar-corner-transparent'
       >
         {AllTools.Tools.map((tools, index) => (
-          <ul key={tools.section_name}>
+          <li key={tools.section_name}>
             <Accordion
               id='sidebarAccordion'
               expanded={expanded === 'panel' + index}
@@ -45,22 +45,22 @@ export function Sidebar({ openSidebar, handleBarsClick }: SidebarProps) {
               <AccordionDetails id='sidebarSubsectionsContainer'>
                 <ul>
                   {tools.subsections.map(tool => (
-                    <Link to={'/subSection/' + tool.subsection_name}>
-                      <li
-                        id='sidebarSubsection'
-                        key={tool.subsection_name}
-                        onClick={() => handleBarsClick()}
-                      >
+                    <li
+                      id='sidebarSubsection'
+                      key={tool.subsection_name}
+                      onClick={() => handleBarsClick()}
+                    >
+                      <Link to={'/subSection/' + tool.subsection_name}>
                         <p className='sidebarSubsectionName'>
                           {tool.subsection_name}
                         </p>
-                      </li>
-                    </Link>
+                      </Link>
+                    </li>
                   ))}
                 </ul>
               </AccordionDetails>
             </Accordion>
-          </ul>
+          </li>
         ))}
       </ul>
     </div>
