@@ -16,6 +16,10 @@
     inset -9px -9px 18px #131345;
 }
 
+#modal[data-show='false'] {
+  display: none;
+}
+
 #modal:focus {
   display: absolute;
 }

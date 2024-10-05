@@ -8,10 +8,7 @@ interface ModalProps {
 export default function Modal({ showModal }: ModalProps) {
   const a: Array<string> = ['a', 'b', 'c', 'd', '2']
   return (
-    <section
-      id='modal'
-      className={(showModal ? 'flex ' : 'hidden ') + 'backdrop-blur-sm'}
-    >
+    <section id='modal' className='backdrop-blur-sm' data-show={showModal}>
       <div id='modalInputContainer'>
         <input
           id='modalInput'
