@@ -37,14 +37,12 @@
 
 #modalSearchbar {
   display: flex;
-  width: 100%;
-  border-radius: 8px;
-  position: sticky;
 }
 
 #modalInput {
   width: 100%;
   box-shadow: -2px 8px 15px #0d0d30;
+  font-weight: 500;
 }
 
 #modalInputBtn {
@@ -59,6 +57,11 @@
   flex-direction: row;
   justify-content: space-around;
   padding-inline: 16px;
+}
+
+#modalFilters>select {
+  width: 130px;
+  text-align: center;
 }
 
 .modalSelect {

@@ -2,6 +2,7 @@ import '../styles/components/Modal.css'
 import { useEffect, useState } from 'react'
 import ModalResult from '../assets/ModalResult'
 import ModalInput from '../assets/ModalInput'
+import ModalFilters from '../assets/ModalFilters'
 
 interface ModalProps {
   showModal: boolean
@@ -17,7 +18,10 @@ export default function Modal({ showModal }: ModalProps) {
   }, [showModal])
   return (
     <section id='modal' className='backdrop-blur-sm' data-show={showModal}>
-      <ModalInput setSearch={setSearch} showModal={showModal} />
+      <div id='modalInputContainer'>
+        <ModalInput setSearch={setSearch} showModal={showModal} />
+        <ModalFilters />
+      </div>
       <div id='modalSection' className=''>
         <ModalResult key={search} search={search} />
       </div>
