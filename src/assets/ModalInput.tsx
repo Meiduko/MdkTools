@@ -2,9 +2,10 @@ import { MagnifyingGlass } from './MagnifyingGlass'
 
 interface ModalInputProps {
   showModal: boolean
+  setSearch: (search: string) => void
 }
 
-export default function ModalInput({ showModal }: ModalInputProps) {
+export default function ModalInput({ showModal, setSearch }: ModalInputProps) {
   return (
     <div id='modalInputContainer'>
       <div id='modalSearchbar'>
@@ -14,6 +15,7 @@ export default function ModalInput({ showModal }: ModalInputProps) {
           placeholder='Search...'
           type='text'
           disabled={!showModal}
+          onChange={e => setSearch(e.target.value)}
         />
         <button id='modalInputBtn' className='secondaryBtn'>
           <MagnifyingGlass />
