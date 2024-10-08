@@ -14,6 +14,7 @@
   box-shadow: inset 9px 9px 18px #0d0d2f,
     inset -9px -9px 18px #131345;
   overflow-y: scroll;
+  scrollbar-width: none;
   transition: top 300ms;
 }
 

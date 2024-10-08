@@ -20,7 +20,7 @@ export interface Category {
 export interface Item {
   name: string
   Description?: string
-  Url?: string
+  Url: string
   Technologies?: string[]
   Free?: boolean | string
 }

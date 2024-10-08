@@ -16,7 +16,11 @@ export default function ModalResult({ search }: ModalResultProps) {
         subsections.Categories.map(category =>
           category.items.map(items => {
             if (
-              items.Description.toLowerCase().includes(search.toLowerCase())
+              items.name.toLowerCase().includes(search.toLowerCase()) ||
+              items.Description.toLowerCase().includes(search.toLowerCase()) ||
+              items.Technologies.toString()
+                .toLowerCase()
+                .includes(search.toLowerCase())
             ) {
               resultArray.push(items)
             }
@@ -25,8 +29,6 @@ export default function ModalResult({ search }: ModalResultProps) {
       })
     })
     setResult(resultArray)
-    console.log(search)
-    console.log(resultArray)
   }, [search])
 
   return results?.map(result => (
@@ -34,7 +36,13 @@ export default function ModalResult({ search }: ModalResultProps) {
       <h3 className='modalResultTitle'>{result.name}</h3>
       <div className='modalResultDescriptionContainer'>
         <p className='modalResultDescription'>{result.Description}</p>
-        <button className='modalResultBtn primaryBtn'>Ver más</button>
+        <a
+          about='_blank'
+          href={result.Url.toString()}
+          className='modalResultBtn primaryBtn'
+        >
+          Ver más
+        </a>
       </div>
     </div>
   ))

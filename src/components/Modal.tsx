@@ -16,11 +16,7 @@ export default function Modal({ showModal }: ModalProps) {
     }
   }, [showModal])
   return (
-    <section
-      id='modal'
-      className='scrollbar-none backdrop-blur-sm'
-      data-show={showModal}
-    >
+    <section id='modal' className='backdrop-blur-sm' data-show={showModal}>
       <ModalInput setSearch={setSearch} showModal={showModal} />
       <div id='modalSection' className=''>
         <ModalResult key={search} search={search} />
