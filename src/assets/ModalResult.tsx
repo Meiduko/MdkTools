@@ -1,22 +1,44 @@
+import { useEffect, useState } from 'react'
+// import allTools from '../tools.json'
+import { Item } from '../types'
+import { searchLogic } from '../logic/searchLogic'
+
 interface ModalResultProps {
-  a: string
-  _: number
+  search: string
+  sectionFilter: string
+  subsectionFilter: string
+  techFilter: string
 }
 
-export default function ModalResult({ a, _ }: ModalResultProps) {
-  return (
-    <div key={_} className='modalResult '>
-      <h3 className='modalResultTitle'>Tool Name</h3>
+export default function ModalResult({
+  search,
+  sectionFilter,
+  subsectionFilter,
+  techFilter
+}: ModalResultProps) {
+  const [results, setResult] = useState<Item[] | null>(null)
+  const filters = {
+    section: sectionFilter,
+    subsection: subsectionFilter,
+    tech: techFilter
+  }
+
+  useEffect(() => {
+    setResult(searchLogic({ filters, search }))
+  }, [search, sectionFilter, subsectionFilter, techFilter])
+  return results?.map((result, index) => (
+    <div key={result.name + index} className='modalResult '>
+      <h3 className='modalResultTitle'>{result.name}</h3>
       <div className='modalResultDescriptionContainer'>
-        <p className='modalResultDescription'>
-          {a + _}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          aspernatur nemo eaque minima voluptate eligendi corporis dignissimos,
-          quia facere quae odit cumque blanditiis sunt dolorem dicta officia,
-          harum ipsa eveniet!
-        </p>
-        <button className='modalResultBtn primaryBtn'>Ver más</button>
+        <p className='modalResultDescription'>{result.Description}</p>
+        <a
+          target='_blank'
+          href={result.Url}
+          className='modalResultBtn primaryBtn'
+        >
+          Ver más
+        </a>
       </div>
     </div>
-  )
+  ))
 }

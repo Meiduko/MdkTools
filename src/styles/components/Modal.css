@@ -1,6 +1,5 @@
 #modal {
-  height: fit-content;
-  max-height: 600px;
+  height: 600px;
   width: 60%;
   left: 0;
   right: 0;
@@ -14,7 +13,8 @@
   background: #10103A;
   box-shadow: inset 9px 9px 18px #0d0d2f,
     inset -9px -9px 18px #131345;
-  overflow-y: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
   transition: top 300ms;
 }
 
@@ -27,6 +27,9 @@
 }
 
 #modalInputContainer {
+  position: sticky;
+  top: 0px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -34,14 +37,12 @@
 
 #modalSearchbar {
   display: flex;
-  width: 100%;
-  border-radius: 8px;
-  position: sticky;
 }
 
 #modalInput {
   width: 100%;
   box-shadow: -2px 8px 15px #0d0d30;
+  font-weight: 500;
 }
 
 #modalInputBtn {
@@ -58,6 +59,11 @@
   padding-inline: 16px;
 }
 
+#modalFilters>select {
+  width: 130px;
+  text-align: center;
+}
+
 .modalSelect {
   border-radius: 8px;
   padding: 2px;
@@ -69,7 +75,6 @@
   flex-direction: column;
   padding: 24px;
   gap: 32px;
-  overflow-y: scroll;
 
   @media(max-width: 1024px) {
     padding: 24px 6px 0px 6px
