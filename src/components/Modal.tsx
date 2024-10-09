@@ -10,6 +10,9 @@ interface ModalProps {
 
 export default function Modal({ showModal }: ModalProps) {
   const [search, setSearch] = useState<string>('')
+  const [sectionFilter, setSectionFilter] = useState('')
+  const [subsectionFilter, setSubsectionFilter] = useState('')
+  const [techfilter, setTechFilter] = useState('')
 
   useEffect(() => {
     if (showModal) {
@@ -20,10 +23,21 @@ export default function Modal({ showModal }: ModalProps) {
     <section id='modal' className='backdrop-blur-sm' data-show={showModal}>
       <div id='modalInputContainer'>
         <ModalInput setSearch={setSearch} showModal={showModal} />
-        <ModalFilters />
+        <ModalFilters
+          section={sectionFilter}
+          setSection={setSectionFilter}
+          setSubsection={setSubsectionFilter}
+          setTech={setTechFilter}
+        />
       </div>
       <div id='modalSection' className=''>
-        <ModalResult key={search} search={search} />
+        <ModalResult
+          key={search}
+          search={search}
+          sectionFilter={sectionFilter}
+          subsectionFilter={subsectionFilter}
+          techFilter={techfilter}
+        />
       </div>
     </section>
   )

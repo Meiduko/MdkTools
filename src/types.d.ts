@@ -19,8 +19,8 @@ export interface Category {
 
 export interface Item {
   name: string
-  Description?: string
+  Description: string
   Url: string
-  Technologies?: string[]
-  Free?: boolean | string
+  Technologies: string[]
+  Free: boolean | string
 }
