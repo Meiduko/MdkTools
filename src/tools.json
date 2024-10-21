@@ -74,25 +74,6 @@
                   "Free": true
                 },
                 {
-                  "name": "Blacklight",
-                  "Description": " With collaboration between developers and designers at heart, Backlight is a complete coding platform where teams build, document, publish, scale, and maintain Design Systems. The free plan allows up to 3 editors to work on one design system with unlimited viewers.",
-                  "Url": "https://backlight.dev/",
-                  "Technologies": [
-                    "React",
-                    "React Native",
-                    "Next.js",
-                    "Preact",
-                    "Vue",
-                    "Nuxt",
-                    "Svelte",
-                    "Angular",
-                    "Solid",
-                    "Astro",
-                    "Tailwindcss"
-                  ],
-                  "Free": true
-                },
-                {
                   "name": "Lunar UI",
                   "Description": "Lunar UI is a collection of interactive Tailwind CSS components built for React and Vue.js.",
                   "Url": "https://lunarui.dev",
@@ -168,6 +149,25 @@
                     "SvelteKit",
                     "Vite",
                     "Webpack"
+                  ],
+                  "Free": true
+                },
+                {
+                  "name": "Blacklight",
+                  "Description": " With collaboration between developers and designers at heart, Backlight is a complete coding platform where teams build, document, publish, scale, and maintain Design Systems. The free plan allows up to 3 editors to work on one design system with unlimited viewers.",
+                  "Url": "https://backlight.dev/",
+                  "Technologies": [
+                    "React",
+                    "React Native",
+                    "Next.js",
+                    "Preact",
+                    "Vue",
+                    "Nuxt",
+                    "Svelte",
+                    "Angular",
+                    "Solid",
+                    "Astro",
+                    "Tailwindcss"
                   ],
                   "Free": true
                 }
