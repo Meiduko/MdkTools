@@ -12,7 +12,7 @@ export function Nav({ handleClick, openModal }: NavProps) {
     <nav>
       <BarsSvg handleClick={handleClick} />
       <Link to={'/'}>
-        <h1 id='navbarTitle'>MDK Tools</h1>
+        <h1 id='navbarTitle'>All Tools</h1>
       </Link>
       <div id='searchbarContainer'>
         <button
