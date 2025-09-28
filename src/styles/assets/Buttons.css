@@ -1,30 +1,30 @@
 .primaryBtn {
   border-radius: 8px;
-  background: linear-gradient(145deg, #7207ff, #36009b);
+  background: linear-gradient(145deg, #28065F, #180046);
   box-shadow: 2px 2px 8px #080824,
-    -1px -1px 8px #4c5181;
+    -1px -1px 6px #ffffff17;
   transition: box-shadow .17s ease-in;
 }
 
 .primaryBtn:hover {
   box-shadow: 0px 0px 0px #080824,
-    0px 0px 0px #4c5181, inset 3px 3px 8px #120077,
-    inset -3px -3px 8px #8112ff;
+    0px 0px 0px #ffffff28, inset 3px 3px 8px #00000075,
+    inset -3px -3px 8px #ffffff11;
 }
 
 .secondaryBtn {
-  background: #6340ff;
+  background: #41246e;
   border-radius: 8px;
   padding: 0 8px 0 8px;
   box-shadow: 1px 1px 5px #080824,
-    -1px -1px 5px #4c5181;
+    -1px -1px 3px #ffffff41;
   transition: box-shadow .17s;
 }
 
 .secondaryBtn:hover {
   box-shadow: 0px 0px 0px #080824,
-    0px 0px 0px #4c5181, inset 5px 5px 10px #120077,
-    inset -5px -5px 10px #6340ff;
+    0px 0px 0px #4c5181, inset 5px 5px 10px #0000003d,
+    inset -5px -5px 10px #ffffff17;
 }
 
 .barsSvg {

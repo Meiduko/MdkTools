@@ -5,6 +5,7 @@
   right: 0;
   top: 0;
   bottom: 0;
+  padding-top: 24px;
   margin: auto;
   position: fixed;
   flex-direction: column;
@@ -41,7 +42,6 @@
 
 #modalInput {
   width: 100%;
-  box-shadow: -2px 8px 15px #0d0d30;
   font-weight: 500;
 }
 

@@ -28,7 +28,7 @@ export function Nav({ handleClick, openModal }: NavProps) {
         <button
           aria-label='open search modal'
           id='searchBtn'
-          className='secondaryBtn size-10'
+          className='shadow-inner secondaryBtn size-10'
           onClick={() => {
             openModal()
           }}

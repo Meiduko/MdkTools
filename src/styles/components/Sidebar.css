@@ -83,7 +83,7 @@
 
 [id^=sidebarSection]:hover {
   /* background-color: #ffb84d85; */
-  background-color: #7207ff;
+  background-color: #41246e;
 }
 
 .sidebarSectionName {
@@ -107,7 +107,7 @@
 
 [id^=sidebarSubsection]:hover {
   /* background-color: #b8b48480; */
-  background-color: #7207ff90;
+  background-color: #41246e90;
 }
 
 .sidebarSubsectionName {

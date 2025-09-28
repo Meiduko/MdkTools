@@ -17,7 +17,7 @@ export default function ModalInput({ showModal, setSearch }: ModalInputProps) {
         disabled={!showModal}
         onChange={e => setSearch(e.target.value)}
       />
-      <button aria-label='search' id='modalInputBtn' className='secondaryBtn'>
+      <button aria-label='search' id='modalInputBtn' className='shadow-inner secondaryBtn'>
         <MagnifyingGlass />
       </button>
     </div>
