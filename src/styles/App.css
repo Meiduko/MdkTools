@@ -22,9 +22,9 @@ main {
 footer {
   display: flex;
   justify-content: center;
-  padding: 48px 192px 48px 192px;
+  padding: 5% 10% 5% 10%;
   border-top: 2px solid #7207ff;
-  background-color: #8112ff;
+  background-color: #8112ff88;
   color: #eee;
   font-weight: 500;
 }
@@ -73,10 +73,25 @@ footer {
 
 .toolSections {
   @media (min-width: 640px) {
-    width: 50%;
+    width: 70%;
+    grid-template-columns: repeat(auto-fill,
+        minmax(150px, 1fr));
+    gap: 7vh;
+  }
+}
+
+
+.toolSections {
+  @media (min-width: 1024px) {
+    width: 60%;
     grid-template-columns: repeat(auto-fill,
         minmax(185px, 1fr));
-    gap: 7vh;
+  }
+}
+
+.toolSections {
+  @media (min-width: 1440px) {
+    width: 50%;
   }
 }
 
