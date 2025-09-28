@@ -1,6 +1,7 @@
 export default function StockImagesIcon() {
   return (
     <svg
+      className= 'w-20 sm:w-32 h-fit'
       width='144'
       height='144'
       viewBox='0 0 199 154'

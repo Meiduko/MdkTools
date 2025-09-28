@@ -12,12 +12,12 @@ export function Nav({ handleClick, openModal }: NavProps) {
     <nav>
       <BarsSvg handleClick={handleClick} />
       <Link to={'/'}>
-        <h1 id='navbarTitle'>All Tools</h1>
+        <h1 className='self-center text-3xl font-semibold justify-self-center md:text-5xl lg:text-7xl'>All Tools</h1>
       </Link>
       <div id='searchbarContainer'>
         <button
           id='navbarInput'
-          className='searchbar'
+          className='hidden searchbar md:flex'
           onClick={() => {
             openModal()
           }}
@@ -26,7 +26,7 @@ export function Nav({ handleClick, openModal }: NavProps) {
         </button>
         <button
           id='searchBtn'
-          className='secondaryBtn'
+          className='secondaryBtn size-10'
           onClick={() => {
             openModal()
           }}
