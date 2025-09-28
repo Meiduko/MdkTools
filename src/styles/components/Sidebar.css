@@ -63,27 +63,27 @@
   stroke-width: 1.5;
 }
 
-#sidebarAccordion {
+[id^=sidebarAccordion] {
   display: flex;
   flex-direction: column;
   justify-content: start;
   margin: 0 12px 0 12px;
-  color: #f0f0f0;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
+  color: #f0f0f0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
-#sidebarSection {
-  border-radius: 8px;
+[id^=sidebarSection] {
+  border-radius: 8px !important;
   padding-inline: 5px;
   margin-inline: 10px;
-  background-color: none;
-  transition: background-color 250ms ease-in;
+  transition: background-color 250ms ease-in !important;
 }
 
-#sidebarSection:hover {
-  background-color: #ffb84d85;
+[id^=sidebarSection]:hover {
+  /* background-color: #ffb84d85; */
+  background-color: #7207ff;
 }
 
 .sidebarSectionName {
@@ -91,13 +91,13 @@
   padding-inline-start: 4px;
 }
 
-#sidebarSubsectionsContainer {
+[id^=containerSidebarSubsections] {
   border-left: 1px solid;
   margin-left: 16px;
   padding-bottom: 0px;
 }
 
-#sidebarSubsection {
+[id^=sidebarSubsection] {
   border-radius: 8px;
   cursor: pointer;
   padding: 6px;
@@ -105,8 +105,9 @@
   transition: background-color 250ms ease-in;
 }
 
-#sidebarSubsection:hover {
-  background-color: #b8b48480;
+[id^=sidebarSubsection]:hover {
+  /* background-color: #b8b48480; */
+  background-color: #7207ff90;
 }
 
 .sidebarSubsectionName {
