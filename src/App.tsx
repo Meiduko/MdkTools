@@ -37,6 +37,13 @@ function App() {
   }
 
   useEffect(() => {
+    const timeout = setTimeout(() => {
+      window.scrollTo(0, 0)
+    }, 500)
+    return () => clearTimeout(timeout)
+  }, [location])
+
+  useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
       if (event.ctrlKey && event.key === 'k') {
         event.preventDefault()
