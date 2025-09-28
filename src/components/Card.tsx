@@ -8,15 +8,13 @@ interface CardProps {
 
 export function Card({ firstLevel, name }: CardProps) {
   return (
-    <li key={name}>
+    <li className='flex justify-center' key={name}>
       <Link
         to={firstLevel ? '/section/' + name : '/subSection/' + name}
-        className='primaryCard'
+        className='w-2/3 primaryCard sm:w-3/4 md:w-full h-1/2 sm:h-2/3 md:h-full'
       >
-        <div>
-          <StockImagesIcon />
-        </div>
-        <h3>{name}</h3>
+        <StockImagesIcon />
+        <h3 className=''>{name}</h3>
       </Link>
     </li>
   )

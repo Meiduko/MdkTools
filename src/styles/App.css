@@ -23,9 +23,9 @@ footer {
   display: flex;
   justify-content: center;
   padding: 48px 192px 48px 192px;
-  border-top: 2px solid #ffb74d;
-  background-color: #b8b484;
-  color: #555;
+  border-top: 2px solid #7207ff;
+  background-color: #8112ff;
+  color: #eee;
   font-weight: 500;
 }
 
@@ -36,12 +36,12 @@ footer {
   padding-inline-start: 12px;
   border-end-start-radius: 8px;
   border-start-start-radius: 8px;
-  background: #b8b484;
-  color: #555;
+  background: #4c00ff;
+  color: #eee;
 }
 
 .searchbar::placeholder {
-  color: #555;
+  color: #eee;
 }
 
 .secondaryBrown {
@@ -57,13 +57,27 @@ footer {
 }
 
 .toolSections {
-  width: 70%;
-  padding-top: 16px;
+  padding-top: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fill,
-      minmax(185px, 1fr));
-  gap: 20vh;
   justify-items: center;
+}
+
+.toolSections {
+  @media (max-width: 640px) {
+    width: 90%;
+    grid-template-columns: repeat(auto-fill,
+        minmax(120px, 1fr));
+    gap: 6vh;
+  }
+}
+
+.toolSections {
+  @media (min-width: 640px) {
+    width: 50%;
+    grid-template-columns: repeat(auto-fill,
+        minmax(185px, 1fr));
+    gap: 7vh;
+  }
 }
 
 .toolSections>li {
