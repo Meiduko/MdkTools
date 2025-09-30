@@ -35,18 +35,18 @@ export function Sidebar({ openSidebar, handleBarsClick }: SidebarProps) {
         {AllTools.Tools.map((tools, index) => (
           <li key={tools.section_name}>
             <Accordion
-              id='sidebarAccordion'
+              id={`sidebarAccordion ${index}`}
               expanded={expanded === 'panel' + index}
               onChange={() => handleChange('panel' + index)}
             >
-              <AccordionSummary id='sidebarSection' expandIcon={<OpenArrow />}>
+              <AccordionSummary id={`sidebarSection ${tools.section_name}`} expandIcon={<OpenArrow />}>
                 <h3 className='sidebarSectionName'>{tools.section_name}</h3>
               </AccordionSummary>
-              <AccordionDetails id='sidebarSubsectionsContainer'>
+              <AccordionDetails id={`containerSidebarSubsections ${tools.section_name}`}>
                 <ul>
                   {tools.subsections.map(tool => (
                     <li
-                      id='sidebarSubsection'
+                      id={`sidebarSubsection ${tool.subsection_name}`}
                       key={tool.subsection_name}
                       onClick={() => handleBarsClick()}
                     >

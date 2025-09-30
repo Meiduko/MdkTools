@@ -12,10 +12,11 @@ export function Nav({ handleClick, openModal }: NavProps) {
     <nav>
       <BarsSvg handleClick={handleClick} />
       <Link to={'/'}>
-        <h1 className='self-center text-3xl font-semibold justify-self-center md:text-5xl lg:text-7xl'>All Tools</h1>
+        <h1 className='self-center text-xl font-semibold justify-self-center sm:text-4xl md:text-5xl lg:text-7xl'>All Tools</h1>
       </Link>
       <div id='searchbarContainer'>
         <button
+          aria-label='open search modal'
           id='navbarInput'
           className='hidden searchbar md:flex'
           onClick={() => {
@@ -25,8 +26,9 @@ export function Nav({ handleClick, openModal }: NavProps) {
           ctrl+k
         </button>
         <button
+          aria-label='open search modal'
           id='searchBtn'
-          className='secondaryBtn size-10'
+          className='shadow-inner secondaryBtn size-8 sm:size-10'
           onClick={() => {
             openModal()
           }}

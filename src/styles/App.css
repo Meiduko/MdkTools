@@ -15,16 +15,17 @@ main {
   justify-content: center;
   align-content: center;
   min-height: 100vh;
-  padding-top: 64px;
+  padding-top: 24px;
   padding-bottom: 32px;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  padding: 48px 192px 48px 192px;
+  padding: 5% 10% 5% 10%;
   border-top: 2px solid #7207ff;
-  background-color: #8112ff;
+  /* background-color: #8112ff88; */
+  background-color: #28065F;
   color: #eee;
   font-weight: 500;
 }
@@ -36,7 +37,10 @@ footer {
   padding-inline-start: 12px;
   border-end-start-radius: 8px;
   border-start-start-radius: 8px;
-  background: #4c00ff;
+  background: #41246e;
+  box-shadow: 0px 0px 0px #080824,
+    0px 0px 0px #ffffff28, inset 3px 3px 8px #00000075,
+    inset -3px -3px 8px #ffffff11;
   color: #eee;
 }
 
@@ -73,10 +77,25 @@ footer {
 
 .toolSections {
   @media (min-width: 640px) {
-    width: 50%;
+    width: 70%;
+    grid-template-columns: repeat(auto-fill,
+        minmax(150px, 1fr));
+    gap: 7vh;
+  }
+}
+
+
+.toolSections {
+  @media (min-width: 1024px) {
+    width: 60%;
     grid-template-columns: repeat(auto-fill,
         minmax(185px, 1fr));
-    gap: 7vh;
+  }
+}
+
+.toolSections {
+  @media (min-width: 1440px) {
+    width: 50%;
   }
 }
 
