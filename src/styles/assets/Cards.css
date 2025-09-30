@@ -25,13 +25,13 @@
 
 .isFree {
   text-decoration-line: line-through;
-  color: #14532d;
+  color: #2aaf5f;
   font-size: 20px;
   line-height: 28px;
 }
 
 .isNotFree {
-  color: #991b1b;
+  color: #ff6969;
   font-size: 20px;
   line-height: 28px;
 }

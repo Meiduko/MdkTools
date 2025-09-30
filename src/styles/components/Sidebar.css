@@ -89,6 +89,8 @@
 .sidebarSectionName {
   font-weight: 500;
   padding-inline-start: 4px;
+  color: #fff;
+  background-color: #ffffff00
 }
 
 [id^=containerSidebarSubsections] {

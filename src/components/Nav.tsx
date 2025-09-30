@@ -12,7 +12,7 @@ export function Nav({ handleClick, openModal }: NavProps) {
     <nav>
       <BarsSvg handleClick={handleClick} />
       <Link to={'/'}>
-        <h1 className='self-center text-2xl font-semibold justify-self-center sm:text-4xl md:text-5xl lg:text-7xl'>All Tools</h1>
+        <h1 className='self-center text-xl font-semibold justify-self-center sm:text-4xl md:text-5xl lg:text-7xl'>All Tools</h1>
       </Link>
       <div id='searchbarContainer'>
         <button
@@ -28,7 +28,7 @@ export function Nav({ handleClick, openModal }: NavProps) {
         <button
           aria-label='open search modal'
           id='searchBtn'
-          className='shadow-inner secondaryBtn size-10'
+          className='shadow-inner secondaryBtn size-8 sm:size-10'
           onClick={() => {
             openModal()
           }}
